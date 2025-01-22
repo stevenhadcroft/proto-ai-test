@@ -1,4 +1,5 @@
-// src/BurgerMenu.tsx
+// create a burger menu on the top left of the homepage with 3 menu items : Home, About Us, News 
+
 import { useState } from 'react';
 import './BurgerMenu.css';
 

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import BurgerMenu from './BurgerMenu'
+import Carousel from './Carousel';
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <BurgerMenu />
+      <Carousel />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
